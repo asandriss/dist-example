@@ -1,0 +1,857 @@
+﻿2019-07-25 08:20:50.435 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 08:20:50.654 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 08:20:50.817 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' because the user is already in group.
+2019-07-25 08:20:50.973 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:20:50.988 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:20:50.992 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:20:50.994 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:20:50.998 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:20:51.010 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:20:51.023 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:20:51.035 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:20:51.044 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:20:51.066 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:25:11.371 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 08:25:11.557 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 08:25:11.730 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' because the user is already in group.
+2019-07-25 08:25:11.830 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:25:11.840 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:25:11.846 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:25:11.851 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:25:11.852 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:25:11.860 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:25:11.873 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:25:11.880 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:25:11.890 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:25:11.896 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:27:46.947 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 08:27:47.143 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 08:27:47.276 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' because the user is already in group.
+2019-07-25 08:27:47.365 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:27:47.376 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:27:47.383 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:27:47.387 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:27:47.389 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:27:47.399 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:27:47.406 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:27:47.413 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:27:47.421 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:27:47.429 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:35:46.999 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 08:35:47.214 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 08:35:47.351 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' because the user is already in group.
+2019-07-25 08:35:47.451 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:35:47.458 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:35:47.464 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:35:47.471 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:35:47.473 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:35:47.480 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:35:47.490 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:35:47.498 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:35:47.508 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:35:47.515 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:39:11.383 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 08:39:11.572 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 08:39:11.691 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' because the user is already in group.
+2019-07-25 08:39:11.771 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:39:11.777 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:39:11.786 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:39:11.791 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:39:11.794 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:39:11.803 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:39:11.809 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:39:11.816 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:39:11.823 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:39:11.828 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:40:14.519 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 08:40:14.671 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 08:40:14.710 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 08:40:14.800 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:40:14.807 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:40:14.813 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:40:14.815 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:40:14.817 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:40:14.825 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:40:14.836 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:40:14.848 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:40:14.855 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:40:14.862 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:46:06.358 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 08:46:06.552 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 08:46:06.593 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 08:46:06.731 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:46:06.740 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:46:06.745 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:46:06.746 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:46:06.748 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:46:06.757 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:46:06.775 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:46:06.781 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:46:06.789 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:46:06.797 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:46:35.020 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7c9faa40-0edf-49f5-9471-aa95004ead32' because of an exception:
+System.InvalidOperationException: Using a Hub instance not created by the HubPipeline is unsupported.
+   at Microsoft.AspNet.SignalR.Hubs.NullClientProxy.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at FireOnWheels.Web.OrderHub.OrderMessage(String message) in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Hubs\OrderHub.cs:line 18
+   at FireOnWheels.Web.Handlers.OrderProcessedEventHandler.<Handle>d__0.MoveNext() in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Handlers\OrderProcessedEventHandler.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Audit\InvokeAuditPipelineBehavior.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 86
+2019-07-25 08:46:37.667 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7c9faa40-0edf-49f5-9471-aa95004ead32' because of an exception:
+System.InvalidOperationException: Using a Hub instance not created by the HubPipeline is unsupported.
+   at Microsoft.AspNet.SignalR.Hubs.NullClientProxy.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at FireOnWheels.Web.OrderHub.OrderMessage(String message) in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Hubs\OrderHub.cs:line 18
+   at FireOnWheels.Web.Handlers.OrderProcessedEventHandler.<Handle>d__0.MoveNext() in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Handlers\OrderProcessedEventHandler.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Audit\InvokeAuditPipelineBehavior.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 86
+2019-07-25 08:46:40.838 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7c9faa40-0edf-49f5-9471-aa95004ead32' because of an exception:
+System.InvalidOperationException: Using a Hub instance not created by the HubPipeline is unsupported.
+   at Microsoft.AspNet.SignalR.Hubs.NullClientProxy.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at FireOnWheels.Web.OrderHub.OrderMessage(String message) in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Hubs\OrderHub.cs:line 18
+   at FireOnWheels.Web.Handlers.OrderProcessedEventHandler.<Handle>d__0.MoveNext() in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Handlers\OrderProcessedEventHandler.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Audit\InvokeAuditPipelineBehavior.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 86
+2019-07-25 08:46:41.872 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7c9faa40-0edf-49f5-9471-aa95004ead32' because of an exception:
+System.InvalidOperationException: Using a Hub instance not created by the HubPipeline is unsupported.
+   at Microsoft.AspNet.SignalR.Hubs.NullClientProxy.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at FireOnWheels.Web.OrderHub.OrderMessage(String message) in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Hubs\OrderHub.cs:line 18
+   at FireOnWheels.Web.Handlers.OrderProcessedEventHandler.<Handle>d__0.MoveNext() in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Handlers\OrderProcessedEventHandler.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Audit\InvokeAuditPipelineBehavior.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 86
+2019-07-25 08:46:42.903 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7c9faa40-0edf-49f5-9471-aa95004ead32' because of an exception:
+System.InvalidOperationException: Using a Hub instance not created by the HubPipeline is unsupported.
+   at Microsoft.AspNet.SignalR.Hubs.NullClientProxy.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at FireOnWheels.Web.OrderHub.OrderMessage(String message) in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Hubs\OrderHub.cs:line 18
+   at FireOnWheels.Web.Handlers.OrderProcessedEventHandler.<Handle>d__0.MoveNext() in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Handlers\OrderProcessedEventHandler.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Audit\InvokeAuditPipelineBehavior.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 86
+2019-07-25 08:46:43.942 WARN  NServiceBus.RecoverabilityExecutor Delayed Retry will reschedule message '7c9faa40-0edf-49f5-9471-aa95004ead32' after a delay of 00:00:10 because of an exception:
+System.InvalidOperationException: Using a Hub instance not created by the HubPipeline is unsupported.
+   at Microsoft.AspNet.SignalR.Hubs.NullClientProxy.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at FireOnWheels.Web.OrderHub.OrderMessage(String message) in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Hubs\OrderHub.cs:line 18
+   at FireOnWheels.Web.Handlers.OrderProcessedEventHandler.<Handle>d__0.MoveNext() in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Handlers\OrderProcessedEventHandler.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Audit\InvokeAuditPipelineBehavior.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 86
+2019-07-25 08:48:46.270 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 08:48:46.495 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 08:48:46.549 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 08:48:46.760 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:48:46.773 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:48:46.782 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:48:46.787 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:48:46.791 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:48:46.812 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:48:46.824 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:48:46.834 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:48:46.844 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:48:46.853 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:49:19.308 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '01eaa72a-efd7-4765-bb20-aa95004f709e' because of an exception:
+System.InvalidOperationException: Using a Hub instance not created by the HubPipeline is unsupported.
+   at Microsoft.AspNet.SignalR.Hubs.NullClientProxy.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at FireOnWheels.Web.OrderHub.OrderMessage(String message) in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Hubs\OrderHub.cs:line 18
+   at FireOnWheels.Web.Handlers.OrderProcessedEventHandler.<Handle>d__0.MoveNext() in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Handlers\OrderProcessedEventHandler.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Audit\InvokeAuditPipelineBehavior.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 86
+2019-07-25 08:49:21.951 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '01eaa72a-efd7-4765-bb20-aa95004f709e' because of an exception:
+System.InvalidOperationException: Using a Hub instance not created by the HubPipeline is unsupported.
+   at Microsoft.AspNet.SignalR.Hubs.NullClientProxy.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at FireOnWheels.Web.OrderHub.OrderMessage(String message) in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Hubs\OrderHub.cs:line 18
+   at FireOnWheels.Web.Handlers.OrderProcessedEventHandler.<Handle>d__0.MoveNext() in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Handlers\OrderProcessedEventHandler.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Audit\InvokeAuditPipelineBehavior.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 86
+2019-07-25 08:49:22.977 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '01eaa72a-efd7-4765-bb20-aa95004f709e' because of an exception:
+System.InvalidOperationException: Using a Hub instance not created by the HubPipeline is unsupported.
+   at Microsoft.AspNet.SignalR.Hubs.NullClientProxy.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at FireOnWheels.Web.OrderHub.OrderMessage(String message) in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Hubs\OrderHub.cs:line 18
+   at FireOnWheels.Web.Handlers.OrderProcessedEventHandler.<Handle>d__0.MoveNext() in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Handlers\OrderProcessedEventHandler.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Audit\InvokeAuditPipelineBehavior.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 86
+2019-07-25 08:49:24.003 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '01eaa72a-efd7-4765-bb20-aa95004f709e' because of an exception:
+System.InvalidOperationException: Using a Hub instance not created by the HubPipeline is unsupported.
+   at Microsoft.AspNet.SignalR.Hubs.NullClientProxy.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at FireOnWheels.Web.OrderHub.OrderMessage(String message) in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Hubs\OrderHub.cs:line 18
+   at FireOnWheels.Web.Handlers.OrderProcessedEventHandler.<Handle>d__0.MoveNext() in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Handlers\OrderProcessedEventHandler.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Audit\InvokeAuditPipelineBehavior.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 86
+2019-07-25 08:49:25.059 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '01eaa72a-efd7-4765-bb20-aa95004f709e' because of an exception:
+System.InvalidOperationException: Using a Hub instance not created by the HubPipeline is unsupported.
+   at Microsoft.AspNet.SignalR.Hubs.NullClientProxy.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at FireOnWheels.Web.OrderHub.OrderMessage(String message) in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Hubs\OrderHub.cs:line 18
+   at FireOnWheels.Web.Handlers.OrderProcessedEventHandler.<Handle>d__0.MoveNext() in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Handlers\OrderProcessedEventHandler.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Audit\InvokeAuditPipelineBehavior.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 86
+2019-07-25 08:49:26.192 WARN  NServiceBus.RecoverabilityExecutor Delayed Retry will reschedule message '01eaa72a-efd7-4765-bb20-aa95004f709e' after a delay of 00:00:10 because of an exception:
+System.InvalidOperationException: Using a Hub instance not created by the HubPipeline is unsupported.
+   at Microsoft.AspNet.SignalR.Hubs.NullClientProxy.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at FireOnWheels.Web.OrderHub.OrderMessage(String message) in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Hubs\OrderHub.cs:line 18
+   at FireOnWheels.Web.Handlers.OrderProcessedEventHandler.<Handle>d__0.MoveNext() in D:\Code\NServiceBus\Demo\FireOnWheelsStage5\Handlers\OrderProcessedEventHandler.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Audit\InvokeAuditPipelineBehavior.cs:line 18
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 86
+2019-07-25 08:59:14.500 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 08:59:14.731 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 08:59:14.775 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 08:59:14.899 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:59:14.906 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:59:14.911 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:59:14.914 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:59:14.916 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 08:59:14.923 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:59:14.928 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:59:14.934 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:59:14.939 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 08:59:14.947 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:01:33.899 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 09:01:34.164 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 09:01:34.211 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 09:01:34.324 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:01:34.333 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:01:34.339 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:01:34.341 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:01:34.342 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:01:34.352 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:01:34.359 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:01:34.367 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:01:34.376 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:01:34.382 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:03:21.997 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 09:03:22.203 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 09:03:22.238 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 09:03:22.317 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:03:22.328 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:03:22.332 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:03:22.334 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:03:22.337 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:03:22.346 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:03:22.353 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:03:22.359 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:03:22.365 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:03:22.373 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:06:49.586 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 09:06:49.762 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 09:06:49.792 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 09:06:49.863 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:06:49.870 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:06:49.874 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:06:49.875 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:06:49.878 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:06:49.887 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:06:49.897 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:06:49.906 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:06:49.914 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:06:49.921 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:13:25.431 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 09:13:25.628 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 09:13:25.662 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 09:13:25.741 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:13:25.747 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:13:25.752 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:13:25.755 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:13:25.757 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:13:25.766 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:13:25.775 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:13:25.780 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:13:25.786 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:13:25.793 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:16:39.313 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 09:16:39.540 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 09:16:39.587 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 09:16:39.678 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:16:39.687 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:16:39.692 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:16:39.694 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:16:39.696 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 09:16:39.711 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:16:39.721 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:16:39.729 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:16:39.739 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 09:16:39.745 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:39:18.514 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 10:39:18.732 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 10:39:18.778 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 10:39:18.902 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:39:18.911 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:39:18.917 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:39:18.921 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:39:18.924 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:39:18.931 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:39:18.936 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:39:18.942 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:39:18.947 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:39:18.953 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:43:07.745 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 10:43:08.164 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 10:43:08.217 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 10:43:08.389 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:43:08.405 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:43:08.415 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:43:08.423 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:43:08.431 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:43:08.455 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:43:08.475 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:43:08.491 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:43:08.519 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:43:08.540 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:45:36.859 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 10:45:37.116 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 10:45:37.203 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 10:45:37.405 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:45:37.437 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:45:37.464 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:45:37.471 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:45:37.475 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:45:37.486 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:45:37.495 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:45:37.507 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:45:37.520 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:45:37.539 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:48:21.250 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 10:48:21.598 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 10:48:21.663 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 10:48:21.822 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:48:21.843 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:48:21.853 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:48:21.865 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:48:21.867 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:48:21.879 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:48:21.891 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:48:21.906 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:48:21.919 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:48:21.937 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:50:21.765 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 10:50:22.037 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 10:50:22.091 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 10:50:22.219 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:50:22.235 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:50:22.245 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:50:22.252 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:50:22.258 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:50:22.275 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:50:22.285 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:50:22.293 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:50:22.301 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:50:22.312 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:55:53.502 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 10:55:53.730 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 10:55:53.775 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 10:55:53.882 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:55:53.890 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:55:53.896 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:55:53.898 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:55:53.900 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:55:53.909 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:55:53.920 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:55:53.929 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:55:53.943 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:55:53.958 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:59:42.393 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 10:59:42.662 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 10:59:42.702 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 10:59:42.811 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:59:42.821 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:59:42.830 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:59:42.835 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:59:42.836 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 10:59:42.845 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:59:42.853 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:59:42.859 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:59:42.866 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 10:59:42.873 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 11:04:41.376 INFO  DefaultFactory Logging to 'D:\Code\NServiceBus\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2019-07-25 11:04:41.810 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 7/24/2019.
+2019-07-25 11:04:41.893 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EMARATECH\Fedor.Hajdu' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "EMARATECH\Fedor.Hajdu" /add
+2019-07-25 11:04:42.072 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 11:04:42.089 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 11:04:42.102 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 11:04:42.110 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 11:04:42.116 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-07-25 11:04:42.131 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 11:04:42.143 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 11:04:42.154 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 11:04:42.165 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-07-25 11:04:42.176 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.

@@ -1,0 +1,21 @@
+﻿<h2>Thank you, your order was received</h2>
+
+<div class="orderProcessedMessage"></div>
+
+@section scripts{
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.4.1.min.js"></script>
+    <script src="/signalr/hubs"></script>
+    <script language="javascript">
+        $(function () {
+            var hub = $.connection.orderHub;
+            console.log("hub initiated");
+
+            hub.client.orderMessage = function (msg) {
+                console.log(msg);            
+            };
+
+            $.connection.hub.start();
+        });
+    </script>
+}
