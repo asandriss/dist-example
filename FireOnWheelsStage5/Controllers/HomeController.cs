@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using System.Web.Mvc;
 using FireOnWheels.Messages;
+using FireOnWheels.Web.Hubs;
 using Microsoft.AspNet.SignalR;
 using NServiceBus;
 using Order = FireOnWheels.Web.Models.Order;

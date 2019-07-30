@@ -15,8 +15,15 @@ namespace FireOnWheels.Order
         {
             Logger.InfoFormat("Order received! From address: {0}, To address: {1}",
                 message.AddressFrom, message.AddressTo);
+            
+
+            // do internal processing of the order
             await EmailSender.SendEmailToDispatch(message);
 
+            Logger.InfoFormat("Order from address: {0}, to address: {1} processed successfully.",
+                message.AddressFrom, message.AddressTo);
+            
+            // notify anyone interested that order is complete.
             await context.Publish<IOrderProcessedEvent>(e =>
             {
                 e.AddressFrom = message.AddressFrom;

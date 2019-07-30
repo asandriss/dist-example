@@ -1,6 +1,6 @@
 ﻿<h2>Thank you, your order was received</h2>
 
-<div class="orderProcessedMessage"></div>
+<div id="orderProcessedMessage"></div>
 
 @section scripts{
     <script src="~/Scripts/jquery-1.9.1.min.js"></script>
@@ -12,7 +12,8 @@
             console.log("hub initiated");
 
             hub.client.orderMessage = function (msg) {
-                console.log(msg);            
+                console.log(msg);
+                $("<strong>Success!</strong> Your order was successfully processed.").appendTo("#orderProcessedMessage");
             };
 
             $.connection.hub.start();

@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using FireOnWheels.Messages;
+using FireOnWheels.Web.Hubs;
 using Microsoft.AspNet.SignalR;
 using NServiceBus;
 
@@ -10,7 +11,7 @@ namespace FireOnWheels.Web.Handlers
         public async Task Handle(IOrderProcessedEvent message, IMessageHandlerContext context)
         {
             // Here we could write a code with SignalR to notify the page about successful process
-            await Task.Delay(1000);
+            await Task.Delay(1000);     // simulate delay.
 
             //orderHub.OrderMessage("Order processed successfully");
             OrderHub.SendOrderMessage("Order processed successfully");
