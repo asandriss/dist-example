@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IOrderProcessedEvent.cs" />
+    <Compile Include="Maybe.cs" />
     <Compile Include="PriceRequest.cs" />
     <Compile Include="PriceResponse.cs" />
     <Compile Include="ProcessOrderCommand.cs" />
